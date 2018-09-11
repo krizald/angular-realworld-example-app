@@ -5,5 +5,6 @@
 
 export const environment = {
   production: false,
-  api_url: 'https://conduit.productionready.io/api'
+  api_url: 'https://conduit.productionready.io/api',
+  quandl_url: 'https://www.quandl.com/api/v3'
 };

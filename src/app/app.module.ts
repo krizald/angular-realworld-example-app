@@ -11,6 +11,7 @@ import {
 } from './shared';
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
+import { StockModule } from './stock/stock.module';
 
 @NgModule({
   declarations: [AppComponent, FooterComponent, HeaderComponent],
@@ -20,6 +21,7 @@ import { CoreModule } from './core/core.module';
     SharedModule,
     HomeModule,
     AuthModule,
+    StockModule,
     AppRoutingModule
   ],
   providers: [],
