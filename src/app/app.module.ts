@@ -12,11 +12,13 @@ import {
 import { AppRoutingModule } from './app-routing.module';
 import { CoreModule } from './core/core.module';
 import { StockModule } from './stock/stock.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent, FooterComponent, HeaderComponent],
   imports: [
     BrowserModule,
+    FormsModule,
     CoreModule,
     SharedModule,
     HomeModule,
@@ -27,4 +29,6 @@ import { StockModule } from './stock/stock.module';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+  private aaa = 11;
+}
